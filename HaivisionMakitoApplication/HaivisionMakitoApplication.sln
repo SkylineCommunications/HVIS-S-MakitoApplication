@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaivisionMakitoApplication", "HaivisionMakitoApplication\HaivisionMakitoApplication.csproj", "{BEF07C0B-0498-4343-95FE-1EC19ECF2DEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{175026BF-A3ED-4990-9B27-541F88957476}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEF07C0B-0498-4343-95FE-1EC19ECF2DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF07C0B-0498-4343-95FE-1EC19ECF2DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF07C0B-0498-4343-95FE-1EC19ECF2DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF07C0B-0498-4343-95FE-1EC19ECF2DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{175026BF-A3ED-4990-9B27-541F88957476} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE90E1BF-1B91-42FF-89D6-5F38DCCCA9CA}
+	EndGlobalSection
+EndGlobal
