@@ -25,10 +25,6 @@ internal class Script
 			var installer = new AppInstaller(Engine.SLNetRaw, context);
 			installer.InstallDefaultContent();
 			UpdateThemeScriptReference(engine);
-
-			////string setupContentPath = installer.GetSetupContentDirectory();
-
-			// Custom installation logic can be added here for each individual install package.
 		}
 		catch (Exception e)
 		{

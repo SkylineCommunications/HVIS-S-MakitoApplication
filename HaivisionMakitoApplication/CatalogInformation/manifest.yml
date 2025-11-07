@@ -26,7 +26,7 @@ type: Custom Solution
 # If the ID is filled in but does not exist yet, a new Catalog item will be registered with this ID.
 # If the ID is filled in but does exist, properties of the item will be overwritten.
 #   Must be a valid GUID.
-id: ee2ba67e-78a9-45d6-8c9f-269803f745b0
+id: eeb5e0b8-31d1-45cd-a44b-646462325d34
 
 # [Required]
 # The human-friendly name of the Catalog item.
@@ -34,7 +34,7 @@ id: ee2ba67e-78a9-45d6-8c9f-269803f745b0
 #   Max length: 100 characters.
 #   Cannot contain newlines.
 #   Cannot contain leading or trailing whitespace characters.
-title: HaivisionMakitoApplication
+title: Haivision Makito Application
 
 # [Optional]
 # General information about the Catalog item.
@@ -59,7 +59,7 @@ documentation_url:
 #   The name is required; max 256 characters.
 #   The email and URL are optional, and should be in valid email/URL formats.
 owners:
-  - name: 'AGA'
+  - name: 'Thomas Rich'
   
 # [Optional]
 # Tags that allow you to categorize your Catalog items.
@@ -68,4 +68,7 @@ owners:
 #   Cannot contain newlines.
 #   Cannot contain leading or trailing whitespace characters.
 tags:
-  - dataminer
+  - Product Solution
+  - Haivision
+  - Makito X4 Encoder
+  - Makito X4 Decoder
